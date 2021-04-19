@@ -3,15 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Moj pies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            height: 90px;
+            border-bottom: 1px solid #ddd;
+        }
+        #logo img {
+            width: 200px;
+        }
+        main {
+            height: 707px;
+            display: block;
+        }
+        nav {
+            width: 300px;
+            height: 100%;
+            float: left;
+            border-right: 1px solid #ddd;
+        }
+        section {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f6f9ff;
+            flex-wrap: wrap;
+        }
+        section div {
+            padding: 25px;
+            display: flex;
+            width: 600px;
+            height: 300px;
+            
+            margin: 2px;
+        }
+    </style>
 </head>
 <body>
-    <h1> Witam wszytkich  </h1>
-    <h2> jestem Leon </h2>
-    <p>Na zdjęciu jestem bardzo szcześliwy</p>
-    <p>Bo lubie chodzić na plaże</p>
-    <img src="/assets/leoo.png"> <br/>
-    <a href="https://github.com/karolinazygmunt">autor</a>
+    <header> 
+        <div id="logo">
+              <h1><img src="https://lh3.googleusercontent.com/proxy/FxVv491v98c8BaiHW91jYH_fRO8ydgdUlclz6God42d8o-NzXcpspO4F4Lrms_FU3mWkaYu8IxzN5XiBJ6rf_MLN4beW"></h1> 
+         </div>
+    </header>
+    <main>
+        <nav></nav>
+        <section>
+            <div><h3>Welcome back Shakir!</h3></div>
+            <div><h3>Books</h3></div>
+            <div><h3>Course Result</h3></div>
+            <div><h3>Today's Progress</h3></div>
+        </section>
+    </main>
+       
 </body>
 </html>
